@@ -11,7 +11,6 @@ template reverse: untyped =
 type Int = int64
 template len(a: seq): int =
   a.len
-print([1, 4, 5])
 iterator range(Start: int, End: int, Diff: int): int =
   var s = Start
   if Start <= End:
