@@ -14,8 +14,7 @@ proc push(x: int64) =
             break
         heap[i] = heap[p]
         i = p
-        #print(i)
-        #print(p)
+        
     heap[i] = x
 proc pop(): int64 =
     sz -= 1
